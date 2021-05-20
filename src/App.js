@@ -2,6 +2,7 @@ import styled from "styled-components";
 import jan3th from "./styles/images/20210103.webp";
 import feb25 from "./styles/images/20210225.webp";
 import mar6th from "./styles/images/20210306.webp";
+import may28 from "./styles/images/20210518.webp";
 
 const AppWrapper = styled.div`
   width: 100%;
@@ -45,9 +46,10 @@ function App() {
       </Header>
       <BodyWrapper>
         <DiaryWrapper>
-          <img src={jan3th} />
-          <img src={feb25} />
+          <img src={may28} />
           <img src={mar6th} />
+          <img src={feb25} />
+          <img src={jan3th} />
         </DiaryWrapper>
       </BodyWrapper>
     </AppWrapper>
